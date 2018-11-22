@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		71AF988421A55AB50019091E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF988321A55AB50019091E /* AppDelegate.m */; };
+		71AF988721A55AB50019091E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF988621A55AB50019091E /* ViewController.m */; };
+		71AF988A21A55AB50019091E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AF988821A55AB50019091E /* Main.storyboard */; };
+		71AF988C21A55ABF0019091E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71AF988B21A55ABF0019091E /* Assets.xcassets */; };
+		71AF988F21A55ABF0019091E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AF988D21A55ABF0019091E /* LaunchScreen.storyboard */; };
+		71AF989221A55ABF0019091E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF989121A55ABF0019091E /* main.m */; };
+		71AF989C21A55ABF0019091E /* TouchPasswordTextTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF989B21A55ABF0019091E /* TouchPasswordTextTests.m */; };
+		71AF98A721A55ABF0019091E /* TouchPasswordTextUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF98A621A55ABF0019091E /* TouchPasswordTextUITests.m */; };
+		71AF98B621A55B220019091E /* ElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF98B521A55B220019091E /* ElementView.m */; };
+		71AF98BA21A5601E0019091E /* ContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF98B921A5601E0019091E /* ContentView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		71AF989821A55ABF0019091E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71AF987721A55AB50019091E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71AF987E21A55AB50019091E;
+			remoteInfo = TouchPasswordText;
+		};
+		71AF98A321A55ABF0019091E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71AF987721A55AB50019091E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71AF987E21A55AB50019091E;
+			remoteInfo = TouchPasswordText;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		71AF987F21A55AB50019091E /* TouchPasswordText.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchPasswordText.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AF988221A55AB50019091E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		71AF988321A55AB50019091E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		71AF988521A55AB50019091E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		71AF988621A55AB50019091E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		71AF988921A55AB50019091E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		71AF988B21A55ABF0019091E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71AF988E21A55ABF0019091E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		71AF989021A55ABF0019091E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71AF989121A55ABF0019091E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		71AF989721A55ABF0019091E /* TouchPasswordTextTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPasswordTextTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AF989B21A55ABF0019091E /* TouchPasswordTextTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchPasswordTextTests.m; sourceTree = "<group>"; };
+		71AF989D21A55ABF0019091E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71AF98A221A55ABF0019091E /* TouchPasswordTextUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TouchPasswordTextUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		71AF98A621A55ABF0019091E /* TouchPasswordTextUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TouchPasswordTextUITests.m; sourceTree = "<group>"; };
+		71AF98A821A55ABF0019091E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71AF98B421A55B220019091E /* ElementView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ElementView.h; sourceTree = "<group>"; };
+		71AF98B521A55B220019091E /* ElementView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElementView.m; sourceTree = "<group>"; };
+		71AF98B721A55D1B0019091E /* TouchPasswordHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TouchPasswordHeader.h; sourceTree = "<group>"; };
+		71AF98B821A5601E0019091E /* ContentView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentView.h; sourceTree = "<group>"; };
+		71AF98B921A5601E0019091E /* ContentView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71AF987C21A55AB50019091E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AF989421A55ABF0019091E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AF989F21A55ABF0019091E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		71AF987621A55AB50019091E = {
+			isa = PBXGroup;
+			children = (
+				71AF988121A55AB50019091E /* TouchPasswordText */,
+				71AF989A21A55ABF0019091E /* TouchPasswordTextTests */,
+				71AF98A521A55ABF0019091E /* TouchPasswordTextUITests */,
+				71AF988021A55AB50019091E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		71AF988021A55AB50019091E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71AF987F21A55AB50019091E /* TouchPasswordText.app */,
+				71AF989721A55ABF0019091E /* TouchPasswordTextTests.xctest */,
+				71AF98A221A55ABF0019091E /* TouchPasswordTextUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		71AF988121A55AB50019091E /* TouchPasswordText */ = {
+			isa = PBXGroup;
+			children = (
+				71AF988221A55AB50019091E /* AppDelegate.h */,
+				71AF988321A55AB50019091E /* AppDelegate.m */,
+				71AF988521A55AB50019091E /* ViewController.h */,
+				71AF988621A55AB50019091E /* ViewController.m */,
+				71AF98B421A55B220019091E /* ElementView.h */,
+				71AF98B521A55B220019091E /* ElementView.m */,
+				71AF98B821A5601E0019091E /* ContentView.h */,
+				71AF98B921A5601E0019091E /* ContentView.m */,
+				71AF98B721A55D1B0019091E /* TouchPasswordHeader.h */,
+				71AF988821A55AB50019091E /* Main.storyboard */,
+				71AF988B21A55ABF0019091E /* Assets.xcassets */,
+				71AF988D21A55ABF0019091E /* LaunchScreen.storyboard */,
+				71AF989021A55ABF0019091E /* Info.plist */,
+				71AF989121A55ABF0019091E /* main.m */,
+			);
+			path = TouchPasswordText;
+			sourceTree = "<group>";
+		};
+		71AF989A21A55ABF0019091E /* TouchPasswordTextTests */ = {
+			isa = PBXGroup;
+			children = (
+				71AF989B21A55ABF0019091E /* TouchPasswordTextTests.m */,
+				71AF989D21A55ABF0019091E /* Info.plist */,
+			);
+			path = TouchPasswordTextTests;
+			sourceTree = "<group>";
+		};
+		71AF98A521A55ABF0019091E /* TouchPasswordTextUITests */ = {
+			isa = PBXGroup;
+			children = (
+				71AF98A621A55ABF0019091E /* TouchPasswordTextUITests.m */,
+				71AF98A821A55ABF0019091E /* Info.plist */,
+			);
+			path = TouchPasswordTextUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		71AF987E21A55AB50019091E /* TouchPasswordText */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71AF98AB21A55ABF0019091E /* Build configuration list for PBXNativeTarget "TouchPasswordText" */;
+			buildPhases = (
+				71AF987B21A55AB50019091E /* Sources */,
+				71AF987C21A55AB50019091E /* Frameworks */,
+				71AF987D21A55AB50019091E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TouchPasswordText;
+			productName = TouchPasswordText;
+			productReference = 71AF987F21A55AB50019091E /* TouchPasswordText.app */;
+			productType = "com.apple.product-type.application";
+		};
+		71AF989621A55ABF0019091E /* TouchPasswordTextTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71AF98AE21A55ABF0019091E /* Build configuration list for PBXNativeTarget "TouchPasswordTextTests" */;
+			buildPhases = (
+				71AF989321A55ABF0019091E /* Sources */,
+				71AF989421A55ABF0019091E /* Frameworks */,
+				71AF989521A55ABF0019091E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71AF989921A55ABF0019091E /* PBXTargetDependency */,
+			);
+			name = TouchPasswordTextTests;
+			productName = TouchPasswordTextTests;
+			productReference = 71AF989721A55ABF0019091E /* TouchPasswordTextTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		71AF98A121A55ABF0019091E /* TouchPasswordTextUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71AF98B121A55ABF0019091E /* Build configuration list for PBXNativeTarget "TouchPasswordTextUITests" */;
+			buildPhases = (
+				71AF989E21A55ABF0019091E /* Sources */,
+				71AF989F21A55ABF0019091E /* Frameworks */,
+				71AF98A021A55ABF0019091E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				71AF98A421A55ABF0019091E /* PBXTargetDependency */,
+			);
+			name = TouchPasswordTextUITests;
+			productName = TouchPasswordTextUITests;
+			productReference = 71AF98A221A55ABF0019091E /* TouchPasswordTextUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		71AF987721A55AB50019091E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = JJXT;
+				TargetAttributes = {
+					71AF987E21A55AB50019091E = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+					};
+					71AF989621A55ABF0019091E = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71AF987E21A55AB50019091E;
+					};
+					71AF98A121A55ABF0019091E = {
+						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 71AF987E21A55AB50019091E;
+					};
+				};
+			};
+			buildConfigurationList = 71AF987A21A55AB50019091E /* Build configuration list for PBXProject "TouchPasswordText" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 71AF987621A55AB50019091E;
+			productRefGroup = 71AF988021A55AB50019091E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				71AF987E21A55AB50019091E /* TouchPasswordText */,
+				71AF989621A55ABF0019091E /* TouchPasswordTextTests */,
+				71AF98A121A55ABF0019091E /* TouchPasswordTextUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		71AF987D21A55AB50019091E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AF988F21A55ABF0019091E /* LaunchScreen.storyboard in Resources */,
+				71AF988C21A55ABF0019091E /* Assets.xcassets in Resources */,
+				71AF988A21A55AB50019091E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AF989521A55ABF0019091E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AF98A021A55ABF0019091E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		71AF987B21A55AB50019091E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AF988721A55AB50019091E /* ViewController.m in Sources */,
+				71AF98B621A55B220019091E /* ElementView.m in Sources */,
+				71AF98BA21A5601E0019091E /* ContentView.m in Sources */,
+				71AF989221A55ABF0019091E /* main.m in Sources */,
+				71AF988421A55AB50019091E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AF989321A55ABF0019091E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AF989C21A55ABF0019091E /* TouchPasswordTextTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71AF989E21A55ABF0019091E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71AF98A721A55ABF0019091E /* TouchPasswordTextUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		71AF989921A55ABF0019091E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71AF987E21A55AB50019091E /* TouchPasswordText */;
+			targetProxy = 71AF989821A55ABF0019091E /* PBXContainerItemProxy */;
+		};
+		71AF98A421A55ABF0019091E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71AF987E21A55AB50019091E /* TouchPasswordText */;
+			targetProxy = 71AF98A321A55ABF0019091E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		71AF988821A55AB50019091E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71AF988921A55AB50019091E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		71AF988D21A55ABF0019091E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				71AF988E21A55ABF0019091E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		71AF98A921A55ABF0019091E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		71AF98AA21A55ABF0019091E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		71AF98AC21A55ABF0019091E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DAR394TX6;
+				INFOPLIST_FILE = TouchPasswordText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JJXT.TouchPasswordText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71AF98AD21A55ABF0019091E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8DAR394TX6;
+				INFOPLIST_FILE = TouchPasswordText/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JJXT.TouchPasswordText;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71AF98AF21A55ABF0019091E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TouchPasswordTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JJXT.TouchPasswordTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchPasswordText.app/TouchPasswordText";
+			};
+			name = Debug;
+		};
+		71AF98B021A55ABF0019091E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TouchPasswordTextTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JJXT.TouchPasswordTextTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TouchPasswordText.app/TouchPasswordText";
+			};
+			name = Release;
+		};
+		71AF98B221A55ABF0019091E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TouchPasswordTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JJXT.TouchPasswordTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TouchPasswordText;
+			};
+			name = Debug;
+		};
+		71AF98B321A55ABF0019091E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = TouchPasswordTextUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = JJXT.TouchPasswordTextUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TouchPasswordText;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		71AF987A21A55AB50019091E /* Build configuration list for PBXProject "TouchPasswordText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AF98A921A55ABF0019091E /* Debug */,
+				71AF98AA21A55ABF0019091E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71AF98AB21A55ABF0019091E /* Build configuration list for PBXNativeTarget "TouchPasswordText" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AF98AC21A55ABF0019091E /* Debug */,
+				71AF98AD21A55ABF0019091E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71AF98AE21A55ABF0019091E /* Build configuration list for PBXNativeTarget "TouchPasswordTextTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AF98AF21A55ABF0019091E /* Debug */,
+				71AF98B021A55ABF0019091E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71AF98B121A55ABF0019091E /* Build configuration list for PBXNativeTarget "TouchPasswordTextUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71AF98B221A55ABF0019091E /* Debug */,
+				71AF98B321A55ABF0019091E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 71AF987721A55AB50019091E /* Project object */;
+}
